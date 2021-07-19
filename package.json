@@ -1,0 +1,43 @@
+{
+  "name": "sample-size",
+  "version": "1.1.0",
+  "description": "🎲 random pass/fail by sample size",
+  "keywords": [
+    "sample",
+    "size",
+    "filter",
+    "rate",
+    "sample-rate",
+    "sample-size",
+    "🎲"
+  ],
+  "author": "omrilotan",
+  "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/sample-size.git"
+  },
+  "homepage": "https://omrilotan.com/sample-size/",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "browser": "./dist/index.mjs",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "start": "npm t && npm run lint && npm run ts && npm run remark",
+    "pretest": "npm run build",
+    "test": "mocha",
+    "lint": "standard",
+    "ts": "tsc",
+    "remark": "remark .",
+    "build": "rollup --config .rollup.js",
+    "prepublishOnly": "npm run build && cp index.d.ts dist"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2",
+    "remark-cli": "^9.0.0",
+    "rollup": "^2.53.2",
+    "standard": "^16.0.3",
+    "typescript": "^4.3.5"
+  }
+}
