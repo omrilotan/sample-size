@@ -3,5 +3,7 @@
  * @param  {Number} rate Decimal fraction
  * @return {Boolean}
  */
-const sampleRate = rate => Math.random() < rate
+function sampleRate (rate) {
+  return Math.random() < rate
+}
 export default sampleRate
