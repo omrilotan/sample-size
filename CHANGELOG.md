@@ -1,3 +1,7 @@
+# 1.1.2
+## 2021-12-24
+Internal rename of the function
+
 # 1.1.1
 ## 2021-07-20
 Use function deceleration instead of arrow function

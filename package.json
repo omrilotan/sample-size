@@ -1,6 +1,6 @@
 {
   "name": "sample-size",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "🎲 random pass/fail by sample size",
   "keywords": [
     "sample",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.0.2",
-    "remark-cli": "^9.0.0",
+    "remark-cli": "^10.0.1",
     "rollup": "^2.53.2",
     "standard": "^16.0.3",
     "typescript": "^4.3.5"

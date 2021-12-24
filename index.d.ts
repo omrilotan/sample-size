@@ -1,2 +1,2 @@
-declare function sampleRate(rate: number): boolean;
-export = sampleRate;
+declare function sampleSize(rate: number): boolean;
+export = sampleSize;

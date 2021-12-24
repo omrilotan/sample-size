@@ -17,7 +17,7 @@ module.exports = [
       file: join(__dirname, 'dist', [ 'index', ext ].join('.')),
       format,
       exports: 'auto',
-      name: 'sampleRate',
+      name: 'sampleSize',
       strict: false,
       sourcemap: true,
       sourcemapFile: join(__dirname, [ 'index', ext, 'map' ].join('.')),

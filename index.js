@@ -3,7 +3,7 @@
  * @param  {Number} rate Decimal fraction
  * @return {Boolean}
  */
-function sampleRate (rate) {
+function sampleSize (rate) {
   return Math.random() < rate
 }
-export default sampleRate
+export default sampleSize
